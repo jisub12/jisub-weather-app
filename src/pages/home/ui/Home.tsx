@@ -48,9 +48,6 @@ export const Home = () => {
 
     return (
         <div className={homeContainer.class}>
-            <button onClick={() => navigate(-1)}>
-                <BackIcon />
-            </button>
             {/* 현재 위치 */}
             <CurrentLocationWidget
                 selected={selected}
