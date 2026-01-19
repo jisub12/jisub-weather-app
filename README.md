@@ -2,10 +2,10 @@
 
 ## 프로젝트 실행 방법
 1. 의존성 설치
-2. 환경 변수 설정  
-   프로젝트 루트에 `.env` 파일 생성:
+2. 환경 변수 설정
+프로젝트 루트에 `.env` 파일 생성: VITE_OPENWEATHER_KEY=API키 입력
 3. 개발 서버 실행
-    npm run dev
+npm run dev
 
 ## 구현한 기능
 - **현재 위치 날씨 조회**
@@ -42,3 +42,5 @@
 - **Routing**: React Router
 - **Styling**: Tailwind CSS
 - **HTTP Client**: Axios
+
+## 기회주셔서 감사합니다. 좋은 하루 되시길 바랍니다.
