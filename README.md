@@ -50,4 +50,4 @@ npm run dev
 - **Styling**: Tailwind CSS
 - **HTTP Client**: Axios
 
-## 기회주셔서 감사합니다. 좋은 하루 되시길 바랍니다.
+## 기회주셔서 감사합니다. 좋은 하루 되시길 바랍니다. 새해 복 많이 받으세요.
