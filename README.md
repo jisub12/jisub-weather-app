@@ -1,5 +1,8 @@
 # 날씨 앱
 
+##배포된 서버
+https://jisub-weather-app.vercel.app/
+
 ## 프로젝트 실행 방법
 1. 의존성 설치
 2. 환경 변수 설정
@@ -25,15 +28,17 @@ npm run dev
   - 로딩 대기 화면 스켈레톤 UI 구현
 
 ## 기술적 의사결정 및 이유
+- **Vite**
+  빠른 개발 서버와 가벼운 번들링으로 개발 효율을 높이기 위해 선택
 - **React + TypeScript**  
   타입 안정성과 유지보수성을 위해 사용
 - **FSD(Feature-Sliced Design)**  
   기능 단위 분리로 코드 확장성과 역할 분리를 명확히 하기 위해 적용
 - **TanStack Query**  
   서버 상태 관리(캐싱/로딩/에러 처리)를 일관되게 처리하기 위해 사용
-- **OpenWeather API**  
+- **OpenWeather API**
   현재/예보 데이터를 제공
-- **지역 검색 데이터(JSON) 분리**  
+- **지역 검색 데이터(JSON) 분리**
   `public/korea_districts.json`을 활용한 단순한 검색 구현
 - **즐겨찾기 로컬스토리지**
   별도 백엔드 없이도 사용자 상태를 유지하기 위해 사용

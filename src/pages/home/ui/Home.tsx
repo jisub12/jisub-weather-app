@@ -10,7 +10,6 @@ import { useFavoriteList } from "@features/favoritelist";
 import { useFavoriteWeather } from "@features/favoritelist/model/useFavoriteWeatherQuery";
 import { homeContainer } from "./home.styled";
 import { CurrentLocationWidget, FavoriteListWidget, ForecastWidget } from "@widgets/home";
-import { BackIcon } from "@shared/ui";
 import { Skeleton } from "@shared/ui/Skeleton";
 
 export const Home = () => {
