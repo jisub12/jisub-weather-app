@@ -43,6 +43,7 @@ export const Home = () => {
     const current = useCurrentWeatherQuery(effectivePos);
     const forecast = useForecast3hQuery(effectivePos);
 
+    if (geoError) return <div className="flex justify-center items-center h-screen p-4 text-My_Red">위치 오류: {geoError}</div>;
     if (current.isLoading || forecast.isLoading) return <Skeleton />;
 
     return (
