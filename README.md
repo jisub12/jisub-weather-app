@@ -1,6 +1,6 @@
 # 날씨 앱
 
-##배포된 서버
+## 배포된 서버
 https://jisub-weather-app.vercel.app/
 
 ## 프로젝트 실행 방법
