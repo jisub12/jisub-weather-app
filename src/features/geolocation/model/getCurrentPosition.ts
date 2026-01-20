@@ -11,7 +11,7 @@ export function getCurrentPosition(options?: PositionOptions): Promise<GeoPositi
     navigator.geolocation.getCurrentPosition(
       (pos) => resolve({ lat: pos.coords.latitude, lon: pos.coords.longitude }),
       (err) => reject(err),
-      { enableHighAccuracy: true, timeout: 10_000, maximumAge: 30_000, ...options }
+      { enableHighAccuracy: true, timeout: 20_000, maximumAge: 30_000, ...options }
     );
   });
 }
